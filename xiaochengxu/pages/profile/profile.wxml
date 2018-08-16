@@ -1,0 +1,58 @@
+<view class="profile">
+  <!-- 头部 -->
+  <view class="head">
+    <view bindtap="bindViewTap" class="userinfo">
+      <view class="userinfo-box">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      </view>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+
+  <!-- 列表 -->
+  <view class="list-box">
+   
+    <view class="list" bindtap="bindViewContact">
+        <view class="list-pic">
+            <image src="../../assets/contact.png"></image>
+        </view>
+        <view class="list-text">联系我们</view>
+        <view class='read'></view>
+    </view>
+    <view class="list list3" bindtap="bindViewHelp">
+        <view class="list-pic">
+            <image src="../../assets/help.png"></image>
+        </view>
+        <view class="list-text">帮助中心</view>
+         <view class='read'></view>
+    </view>
+  </view>
+
+</view>
+
+
+<!-- <view>
+  <checkbox-group bindchange="checkChange" data-index="1">
+    <checkbox value="" color='#f60' checked></checkbox>
+    <checkbox value="" ></checkbox>
+  </checkbox-group>
+</view>
+
+<view>{{foo.sum(1,1)}}</view>
+  <view class='father' bindtap="fatherChange"> 
+    父亲
+      <view class='son' bindtap='sonChange'>儿子</view>
+  </view>
+  <view bind:longtap="longtap">长按</view>
+
+<wxs module="foo">
+    /* module.exports={
+      sum:function(a,b){
+        return a+bW
+      }
+    }*/
+    var sum=function (a,b){
+      return a+b
+    }
+    module.exports.sum=sum
+</wxs> -->

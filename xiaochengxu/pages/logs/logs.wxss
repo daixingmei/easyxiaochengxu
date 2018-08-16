@@ -1,0 +1,37 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+} 
+.info1,.info2{
+  width:100%;
+  padding:15rpx 0;
+  display:block;
+  text-align: left;
+  font-size: 28rpx;
+}
+.detailImg{
+  width: 100%;
+}
+/*伪类箭头 */
+.read{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:1rpx solid #f1f1f1;
+   font-size: 28rpx;
+   line-height: 52rpx;
+}
+.read::after{
+  content:"";
+  width:15rpx;
+  height:15rpx;
+  border-top:2rpx solid #333;
+  border-right:2rpx solid #333;
+  transform: rotate(45deg);
+  display: block;
+}

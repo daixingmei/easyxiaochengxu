@@ -1,0 +1,10 @@
+<view class='content'>
+  <view class="help-list">
+    <view class="help-title">1.打开以后出现空白，没有内容</view>
+    <view class="help-content">请检查您的网络连接，确认连接以后请退出应用并重新登录。</view>
+  </view>
+   <view class="help-list">
+     <view class="help-title">2.收不到短信验证码</view>
+      <view class="help-content">获得短信验证码的时间与成功率与运营商等有关，若无法获得短信验证码请耐心等待。</view>
+  </view>
+</view>

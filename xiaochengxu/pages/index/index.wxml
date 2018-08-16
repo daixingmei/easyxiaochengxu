@@ -1,0 +1,20 @@
+ <view class='contain'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}" wx:key="">
+      <swiper-item class="swiperItem">
+        <image src="{{item}}" class="slide-image" mode="aspectFill" lazy-load/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view> 
+<view class="content">
+   <block  wx:for="{{slideList}}" wx:key="">
+      <navigator class="nav-item" url="/pages/list/list?cat={{item.id}}&title={{item.name}}">
+        <image src="{{item.icon}}" lazy-load></image>
+        <text class='name'>{{item.name}}</text>
+        <text class="clickMe">点击我</text>  
+      </navigator>
+    </block>
+</view>
+

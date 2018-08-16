@@ -1,0 +1,65 @@
+.profile{
+  display:flex;
+  flex-wrap: nowrap ;
+  position: relative
+}
+.profile image{
+  width:160rpx;
+  height: 160rpx;
+  padding: 20rpx;
+  display: flex;
+
+}
+.shop-info{
+  display: flex;
+  width: 550rpx;
+  flex-direction: column;
+  font-size: 14px;
+}
+.shopNmae{
+  width: 425rpx;
+  padding-top: 20rpx;
+}
+.shop-star{
+  position: absolute;
+  right: 20rpx;
+  top: 0rpx;
+}
+.star-after{
+  color: #ccc;
+}
+.star-before{
+  color: yellow;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden
+}
+.loader {
+   font-size: 20px;
+   width: 0.5em;
+   height: 0.5em;
+   border-radius: 50%;
+   position: relative;
+   text-indent: -9999em;
+   margin: auto;
+   animation: load-effect 1s infinite linear;
+}
+@keyframes load-effect {
+   0% {
+      box-shadow: -3em 2em 0 .5em #4ea980, 0 2em 0 0 #4ea980, 3em 2em 0 -.5em #4ea980;
+   }
+   25% {
+      box-shadow: -3em 2em 0 0 #4ea980, 0 2em 0 -.5em #4ea980, 3em 2em 0 0 #4ea980;
+   }
+
+   50% {
+      box-shadow: -3em 2em 0 -0.5em #4ea980, 0 2em 0 0 #4ea980, 3em 2em 0 .5em #4ea980;
+   }
+    75% {
+      box-shadow: -3em 2em 0 0 #4ea980, 0 2em 0 .5em #4ea980, 3em 2em 0 0 #4ea980;
+   }
+    100% {
+      box-shadow: -3em 2em 0 .5em #4ea980, 0 2em 0 0 #4ea980, 3em 2em 0 -.5em #4ea980;
+   }
+}

@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <text class="info1">item1</text>
+  <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="aspectFil1" class="detailImg"></image>
+  <text  class="info2">item2</text>
+  <text class="read" bindtap="watchDetail">查看详情</text>
+</view>

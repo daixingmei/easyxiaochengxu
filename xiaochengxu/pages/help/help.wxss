@@ -1,0 +1,18 @@
+.content{
+  width: 100%;
+}
+.help-list{
+  width: 96%;
+  padding: 0 2%;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  margin-top: 20rpx;
+}
+.help-title{
+   font-weight:bold;
+   font-size: 32rpx;
+}
+.help-content{
+  margin-top: 20rpx;
+}

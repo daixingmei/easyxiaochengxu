@@ -1,0 +1,17 @@
+<view class="profile" wx:for="{{shopList}}" wx:key="id">
+    <image src="{{item.images[0]}}"></image>
+     <view class='shop-info'>
+        <text class='shopNmae'>店铺名称：{{item.name}}</text>
+        <text>电话：{{item.phone}}</text>
+        <text>地址：{{item.address}}</text>
+    </view>
+    <view class='shop-star'>
+      <view class='star-after'>*****</view>
+      <view class='star-before' style="width:{{item.score}}%">*****</view>
+    </view>
+</view>
+<!-- <view class='loading'  wx-if="{{hasMore}}">
+  <view id="loader5">
+  </view>
+</view> -->
+ <view class="loader" wx-if="{{hasMore}}">正在加载...</view>

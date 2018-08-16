@@ -1,0 +1,64 @@
+.contain{
+  width: 100%;
+  height: 390rpx
+}
+swiper{
+   height: 390rpx;
+   width:100%;
+}
+.swiperItem{
+  width:100%;
+  overflow-x: hidden;
+}
+.swiperItem image{width:750rpx;  height: 390rpx}
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap
+}
+
+.nav-item{
+  width: 33.3333%;
+  height: 200rpx;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-left:1rpx solid #ccc;
+  border-bottom:1rpx solid #ccc;
+  box-sizing: border-box;
+  font-size:32rpx;
+  line-height: 40rpx;
+}
+.nav-item:nth-child(3n){
+   border-right:1rpx solid #ccc;
+}
+.nav-item image{
+  width:50rpx;
+  height: 50rpx;
+}
+.index-enter{
+  display: flex;
+  padding: 10rpx 20rpx;
+}
+.index-enter .enter-item{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.index-enter image{
+  width: 200rpx;
+  height: 178rpx;
+}
+.content{
+  width: 96%;
+  margin:2%;
+  border-top:1rpx solid #ccc;
+}
+.clickMe{
+  font-size:24rpx;
+  margin-top: 36rpx;
+}
+.name{
+  margin-top: 20rpx;
+}
